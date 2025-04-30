@@ -36,6 +36,11 @@ ul{
     gap: 20px
 }
 
+.nav-links > li > a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .hero{
     width: 75%;
     display: flex;
