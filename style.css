@@ -1,3 +1,5 @@
+
+
 *{
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
@@ -90,3 +92,47 @@ ul{
     justify-content: center;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info > h3{
+    margin: 50px 0 70px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.img-and-subtext-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px; 
+    margin-bottom: 150px;
+}
+
+.img-and-subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    --img-width: 200px;
+    width: var(--img-width);
+}
+
+.img{
+    width: var(--img-width);
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+}
+
+.subtext{
+    text-align: center;
+    line-height: 1.4;
+    color: #303030;
+}
