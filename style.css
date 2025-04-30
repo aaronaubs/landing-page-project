@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header, footer{
+    background-color: #1f2937;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-and-navbar{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-top: 15px;
+}
+
+#logo{
+    color: #f9faf8;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+ul{
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb; 
+    display: flex;
+    gap: 20px
+}
+
+.hero{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 150px 0;
+    align-items: center;
+}
+
+.hero-text{
+    flex: 0 1 auto;
+}
+
+.hero-text > h2{
+    color: #f9faf8;
+    font-size: 48px; 
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero-text > p{
+    font-size: 18px;
+    color: #e5e7eb;  
+    margin-bottom: 15px;  
+}
+
+.signup-btn{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 10px
+}
+
+#heroBtn{
+    border: 2px solid #3882f6
+}
+
+.hero-image{
+    width: 50%;
+    height: 250px;
+    background-color: #cccccc80;
+    color: #e5e7eb;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
